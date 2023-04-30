@@ -1,0 +1,40 @@
+.container_icon{
+    position: fixed;
+    width: 50px;
+    height: 150px;
+    bottom: 50px;
+    right: 30px;
+    .container_icon_cart{
+        cursor: pointer;
+        margin-top: 20px;
+        display: grid;
+        place-items: center;
+        width: 50px;
+        height: 50px;
+        background-color: #fff;
+        border: 1px solid;
+        border-radius: 50%;
+        i{
+            font-size: 23px;
+            font-weight: 600;
+        }
+        span{
+            display: grid;
+            place-items: center;
+            width: 20px;
+            top: 15px;
+            right: 0px;
+            height: 20px;
+            border-radius: 50%;
+            color: #fff;
+            font-size: 10px;
+            font-weight: 600;
+            background-color: red;
+            position: absolute;
+        }
+        &:hover{
+            background-color: #00a78e;
+            color: #fff;
+        }
+    }
+}
